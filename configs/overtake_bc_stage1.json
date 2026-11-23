@@ -1,0 +1,11 @@
+{
+  "algo_config": "configs/rarl_bc_lowlr.json",
+  "stages": [
+    {
+      "name": "stage1",
+      "env_json": "configs/env_overtake_stage1.json",
+      "steps": 20000,
+      "description": "first acceptance environment: 12 NPCs at 2.5-4 m/s, ego capped at 10 m/s; the memoryless expert reaches 9/10 clean laps and 10/10 strict overtakes here (Gate 0)"
+    }
+  ]
+}

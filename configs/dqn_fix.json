@@ -1,0 +1,17 @@
+{
+  "hidden": 64,
+  "lr": 5e-4,
+  "gamma": 0.99,
+  "batch_size": 64,
+  "buffer_size": 100000,
+  "eps_start": 1.0,
+  "eps_end": 0.05,
+  "eps_decay_steps": 120000,
+  "target_tau": 0.002,
+  "train_every": 2,
+  "grad_updates_per_step": 2,
+  "huber_delta": 5.0,
+  "max_grad_norm": 10.0,
+  "double": true,
+  "reward_scale": 0.05
+}

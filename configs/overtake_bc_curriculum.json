@@ -1,0 +1,17 @@
+{
+  "algo_config": "configs/rarl_bc_sensor.json",
+  "stages": [
+    {
+      "name": "stage1",
+      "env_json": "configs/env_overtake_stage1_sm.json",
+      "steps": 20000,
+      "description": "one slow lead (2.5-4 m/s) in the ego lane, both target lanes empty; BC warm-start moves to the free lane and passes"
+    },
+    {
+      "name": "stage2",
+      "env_json": "configs/env_overtake_stage2_sm.json",
+      "steps": 10000,
+      "description": "same lead plus fast followers in both adjacent lanes: the policy must wait for the rear window"
+    }
+  ]
+}

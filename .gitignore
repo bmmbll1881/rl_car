@@ -1,0 +1,18 @@
+# 独立运行环境（随项目携带，不依赖 DSH）
+.venv/
+runtime/
+
+# 训练产物
+runs/
+runs_*/
+figs_smoke/
+figs_empty/
+*.avi
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# 临时日志
+smoke_*.log

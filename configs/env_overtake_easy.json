@@ -1,0 +1,12 @@
+{
+  "n_obstacles": 8,
+  "npc_v_min": 1.5,
+  "npc_v_max": 3.0,
+  "npc_block_range": 20.0,
+  "npc_min_gap": 25.0,
+  "npc_lead_gap": 25.0,
+  "npc_side_by_side": 1,
+  "npc_three_abreast": 0,
+  "npc_drift": 0.15,
+  "v_max": 10.0
+}

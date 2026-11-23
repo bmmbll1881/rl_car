@@ -1,0 +1,23 @@
+{
+  "algo_config": "configs/rarl_overtake_sm.json",
+  "stages": [
+    {
+      "name": "stage1",
+      "env_json": "configs/env_overtake_stage1_sm.json",
+      "steps": 20000,
+      "description": "one slow lead (2.5-4 m/s) in the ego lane, both target lanes empty"
+    },
+    {
+      "name": "stage2",
+      "env_json": "configs/env_overtake_stage2_sm.json",
+      "steps": 20000,
+      "description": "same lead, plus fast followers (16 m/s) in both adjacent lanes: wait for the rear window"
+    },
+    {
+      "name": "stage3",
+      "env_json": "configs/env_overtake_stage3_sm.json",
+      "steps": 20000,
+      "description": "random mixed traffic (18 NPCs, 3-6 m/s)"
+    }
+  ]
+}

@@ -1,0 +1,8 @@
+# The training/evaluation pipeline only needs these two packages.
+# numpy  : environment, neural networks, hand-written backprop
+# pillow : frame rendering, GIF export, learning-curve charts
+numpy>=1.24
+pillow>=9.0
+
+# Optional (only for the DOCX export script and the reports):
+# python-docx>=1.0
